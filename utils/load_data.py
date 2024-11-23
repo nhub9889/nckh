@@ -1,7 +1,7 @@
 import numpy as np
 from utils.preprocessing import *
 from pickle import load, dump
-from keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 import random
