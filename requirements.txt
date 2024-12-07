@@ -11,12 +11,15 @@ pycocotools
 PyYAML
 regex==2019.8.19
 requests==2.22.0
-scikit-image
+scikit-image==0.18.3
 scipy
 tensorboard
 tensorboardX
 tensorflow
 tqdm
+torch
+torchvision
 urllib3
 boto3
 wandb
+//detectron2

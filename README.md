@@ -36,7 +36,7 @@ With the ``images/`` subfolder containing all the visual genome images at one pl
 To train the model on 4 GPUs in a distributed data parallel training setting, run
 
 ```
-./scripts/dist_run_single.sh 4 vis_rel/train_end2end.py cfgs/vis_rel/frcnn.yml output
+ ./scripts/dist_run_single.sh 4 vis_rel/train_end2end.py cfgs/vis_rel/frcnn.yml output
 ```
 
 The checkpoints will be saved in the ``outputs/`` directory.

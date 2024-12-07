@@ -1,5 +1,6 @@
 import _init_paths
 import torch
+import torchvision
 import warnings
 import subprocess
 import argparse, yaml
